@@ -3,12 +3,14 @@ defaults: []
 services:
   db:
   - key: MYSQL_ROOT_PASSWORD
+    value:
     secret: true
   - key: MYSQL_DATABASE
     value: wordpress
   - key: MYSQL_USER
     value: wordpress
   - key: MYSQL_PASSWORD
+    value:
     secret: true
   wordpress:
   - key: WORDPRESS_DB_HOST
@@ -16,6 +18,7 @@ services:
   - key: WORDPRESS_DB_USER
     value: wordpress
   - key: WORDPRESS_DB_PASSWORD
+    value:
     secret: true
   - key: WORDPRESS_DB_NAME
     value: wordpress
