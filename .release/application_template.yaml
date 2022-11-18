@@ -1,11 +1,11 @@
 ---
-app: wordpress-mysql-update-2
+app: wordpress-mysql-update-3
 auto_deploy: true
 context: release-cs07ya
 domain: your-company-name.xyz
 repo_name: dustyspace/wordpress-mysql
 hostnames:
-- wordpress: wordpress-wordpress-mysql-update-2-${env_id}.${domain}
+- wordpress: wordpress-wordpress-mysql-update-3-${env_id}.${domain}
 environment_templates:
 - name: ephemeral
 - name: permanent
