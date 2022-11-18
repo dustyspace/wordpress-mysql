@@ -1,8 +1,8 @@
 ---
 app: wordpress-mysql-update-3
 auto_deploy: true
-context: release-cs07ya
-domain: your-company-name.xyz
+context: release-rpv8xt
+domain: release.ritzacf.com
 repo_name: dustyspace/wordpress-mysql
 hostnames:
 - wordpress: wordpress-wordpress-mysql-update-3-${env_id}.${domain}
