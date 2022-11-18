@@ -1,7 +1,7 @@
 ---
 app: wordpress-mysql-update-2
 auto_deploy: true
-context: release-w9nh6s
+context: release-cs07ya
 domain: your-company-name.xyz
 repo_name: dustyspace/wordpress-mysql
 hostnames:
