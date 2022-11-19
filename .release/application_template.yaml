@@ -20,6 +20,11 @@ resources:
 services:
 - name: db
   image: mysql:8.0.19
+  ports:
+  - type: container_port
+    port: '3306'
+  - type: container_port
+    port: '33060'
   has_repo: false
   volumes:
   - name: db_data
